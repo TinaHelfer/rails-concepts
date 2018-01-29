@@ -30,7 +30,7 @@ Un MVC ou *Model View Controller* est un patron de conception utilisé pour réa
 
 # Qu'est ce qu'une base de donnée?
 
-Une base de données est comme un tableau Excel avec plusieurs tables dans laquelle sont _stoquées toutes les données d'un thème_ comme par exemple des articles. On peut manipuler la structure , y avoir accès etc... Il existe plusieurs types de modèles de données:
+Une base de données est comme un tableau Excel avec plusieurs tables dans laquelle sont _stockées toutes les données d'un thème_ comme par exemple des articles. On peut manipuler la structure , y avoir accès etc... Il existe plusieurs types de modèles de données:
 
 - relationnel : Trie les données dans des _tables_, que l'on appelle aussi des relations, dont chacune se compose de colonnes et de lignes.
 
