@@ -12,14 +12,11 @@ Comme l'expliquait Félix, Facebook en est un car au lieu de simplement dire bon
 
 Un MVC ou *Model View Controller* est un patron de conception utilisé pour réaliser des sites web. C'est un outil qui permet de comprendre la relation entre les données, l'affichage des informations et les actions de l'utilisateur.
 
-- Model                                                                                           
- Etat de l'application web et des données
+- Model : Etat de l'application web et des données
 
-- View
- Est la vision globale de ce que l'on voit à l'écran composé de code HTML
+- View : Est la vision globale de ce que l'on voit à l'écran composé de code HTML
 
- - Controller
-  Fait le lien entre la vue et le modèle et gère les interactions avec l'utilisateur. Il est au centre du système.
+ - Controller : Fait le lien entre la vue et le modèle et gère les interactions avec l'utilisateur. Il est au centre du système.
 
 
 # Qu'est ce que les routes?
