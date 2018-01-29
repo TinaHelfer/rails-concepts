@@ -1,5 +1,5 @@
 # rails-concepts
-#Quelle est la différence entre un site statique et un site dynamique?
+# Quelle est la différence entre un site statique et un site dynamique?
 
 - Un site *statique* est un site dont la page visible par le visiteur est perçue comme elle a été concue. La page ne changera pas et c'est en cela qu'elle est statique.
 
@@ -8,7 +8,7 @@
 Comme l'expliquait Félix, Facebook en est un car au lieu de simplement dire bonjour à son utilisateur , comme un site statique, il va interagir avec l'utilisateur en nommant son prénom.
 
 
-#Qu'est ce qu'un MVC?
+# Qu'est ce qu'un MVC?
 
 Un MVC ou *Model View Controller* est un patron de conception utilisé pour réaliser des sites web. C'est un outil qui permet de comprendre la relation entre les données, l'affichage des informations et les actions de l'utilisateur.
 
@@ -22,7 +22,7 @@ Un MVC ou *Model View Controller* est un patron de conception utilisé pour réa
   Fait le lien entre la vue et le modèle et gère les interactions avec l'utilisateur. Il est au centre du système.
 
 
-#Qu'est ce que les routes?
+# Qu'est ce que les routes?
 
  Les routes permettent de _transformer une URL en une action d’un contrôleur_. On peut créer ses propres routes comme par exemple dans la vidéo de Félix avec :
 
@@ -31,7 +31,7 @@ Un MVC ou *Model View Controller* est un patron de conception utilisé pour réa
   end
   ```
 
-#Qu'est ce qu'une base de donnée?
+# Qu'est ce qu'une base de donnée?
 
 Une base de données est comme un tableau Excel avec plusieurs tables dans laquelle sont _stoquées toutes les données d'un thème_ comme par exemple des articles. On peut manipuler la structure , y avoir accès etc... Il existe plusieurs types de modèles de données:
 
@@ -48,13 +48,13 @@ etc...
 
 
 
-##En rapport avec les bases de données, nous allons voir le concept de migration
+## En rapport avec les bases de données, nous allons voir le concept de migration
 
 La migration est un procédé qui consiste à informer rails qu'il va _modifier la base de données_. On peut en générer avec la commande : rails generate migration suivie du changement.
 
 
 
-#Quelle est la différence entre GET et POST ?
+# Quelle est la différence entre GET et POST ?
 
  Dans le cas d'un site qui contient des articles:
 
@@ -66,7 +66,7 @@ Le contrôleur va renvoyer à l'utilisateur la liste de tous les articles | Le c
 
 
 
-#Qu'est ce que le CRUD et à quoi sert-il?
+# Qu'est ce que le CRUD et à quoi sert-il?
 
  1. Create : créer : méthode *POST*
  2. Read : lire : méthode *GET*
