@@ -56,9 +56,9 @@ La migration est un procédé qui consiste à informer rails qu'il va _modifier 
  Dans le cas d'un site qui contient des articles:
 
                                   GET                                                      POST
-    Méthode utilisée dans les routes  |  Méthode utilisée dans les routes
-Le contrôleur va renvoyer à l'utilisateur la liste de tous les articles| Le contrôleur va envoyer un formulaire à remplir, il poste un formulaire.
+    Le contrôleur va renvoyer à l'utilisateur la liste de tous les articles  | Le contrôleur va envoyer un formulaire à remplir, il poste un formulaire.
 
+Ces deux méthodes sont utilisées dans des routes.
 
 
 
