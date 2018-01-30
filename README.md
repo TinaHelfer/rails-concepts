@@ -54,9 +54,10 @@ La migration est un procédé qui consiste à informer rails qu'il va _modifier 
 # Quelle est la différence entre GET et POST ?
 
  Dans le cas d'un site qui contient des articles:
-
-                                  GET                                                      POST
+ 
+                                   GET                                       |               POST
     Le contrôleur va renvoyer à l'utilisateur la liste de tous les articles  | Le contrôleur va envoyer un formulaire à remplir, il poste un formulaire.
+    Méthode utilisée dans des routes  |  Méthode utilisée dans des routes
 
 Ces deux méthodes sont utilisées dans des routes.
 
